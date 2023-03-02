@@ -1,0 +1,185 @@
+/* var all_word=240;
+var word=prompt("Напиши а я посчитаю слова"); */
+/* alert("вы напечатали " + word.length + "."+" Осталось "+ (all_word-word.length)); */
+/* var tweet=word.slice(0,241);
+alert(tweet); */
+
+/* var nameUser=prompt("Whats your name?");
+var first=nameUser.slice(0,1);
+var after=nameUser.slice(1,nameUser.length);
+alert("Hello "+first.toUpperCase()+after.toLowerCase()); */
+
+/* var dogAge=prompt("how old is your dog?");
+var dogAgeToHumanAge=(dogAge-2)*4+21;
+console.log("In human years your dog is "+dogAgeToHumanAge); */
+
+/* function getMilk() {   
+    console.log("leaveHouse");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveUp");
+    console.log("moveRight");
+    console.log("moveRight");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveDown");
+    console.log("moveLeft");
+    console.log("moveLeft");
+    console.log("enterHouse");
+  } */
+
+/*   var years_left=65-years_user;
+  var months_left=(65*12)-(years_user*12);
+  var days_left=(65*365)-(years_user*365);
+  alert("Тебе в среднем осталось жить: "+years_left+","+months_left+","+days_left+"."); */
+// z=x/y*2
+
+
+/* var weight= prompt("Whats your weight?")
+var hight= prompt("Whats your hight?")
+
+function BMI_CALC(w,h){
+h=h/100;
+var bmi=w/Math.pow(h,2); 
+return bmi; //спросить диму про ретерн
+}
+var bmi=BMI_CALC(weight,hight)
+bmi=(Math.round(bmi*100)/100).toFixed(2);
+if (bmi >= 20){
+  alert("Ваш BMI: "+bmi+". Ты жирный уебок")
+}
+if (bmi<=20 && bmi >= 10){
+  alert("Ваш BMI: "+bmi+". Ты в порядке")
+}
+if (bmi<=10){
+  alert("Ваш BMI: "+bmi+". Поешь чел")
+} */
+
+
+
+
+
+/* var dima=prompt("Lovers Name");
+var yli=prompt("Your Name");
+if (dima==="Ульяна", yli==="Дима"){
+  alert("Ваш шанс поженится 100%. Тут инфа сотка");
+}
+else{
+
+var n=Math.random();
+n=n*100;
+n=Math.floor(n)+1;
+if (n<33) {
+  alert("Ваш шанс поженится: "+n+"%"+". Ебать удачи как говорится");
+}
+else {
+  alert("Ваш шанс поженится: "+n+"%"+". Совет да любовь");
+}
+} */
+
+
+// === is equal to также проверят тип данных, == не проверят тип данных, так что 1="1" number =string
+// !== is not equal to
+// > < ну это и так ясно 
+// >=  <= больше или равно меньше или равно
+// && and и то и другое верно
+// || or или одно или другое верно
+// ! not
+
+
+
+// УТОЧНИТЬ У ДИМЫ ПРО  &&  || ! можно ли !ставить к другим символам чтобы делать отрицание
+
+
+
+
+/* var aray = [];
+function хуйПизда() {
+  for(var n = 1;n<=100;n++) {
+  if (n % 3 === 0 && n % 5 === 0 ) {
+    aray.push("ДругПривет");
+  }
+  else if (n % 3 === 0) {
+    aray.push("Друг");
+  }
+   else if (n % 5 === 0) {
+      aray.push("Привет");
+    }
+    else {
+      aray.push(n);
+    }
+    
+  }
+    console.log(aray);
+  } */
+
+  
+
+
+
+  /* var song=[];
+  НЕ РАБОТАЕТ
+  function songDog(){      
+    for(var dog=100;dog>1; dog--){
+    song.push("Осталось всего"+dog+"собак, пока еже не попали в просак");
+      }
+    
+    song.push("Собаки кончились, как так?:(");
+    
+  }
+  console.log(song); */
+  
+
+
+  /* var numberOfBottles = 99
+  while (numberOfBottles >= 0) {
+      var bottleWord = "bottle";
+      if (numberOfBottles === 1) {
+          bottleWord = "bottles";
+      } 
+      console.log(numberOfBottles + " " + bottleWord + " of beer on the wall");
+      console.log(numberOfBottles + " " + bottleWord + " of beer,");
+      console.log("Take one down, pass it around,");
+    numberOfBottles--;
+      console.log(numberOfBottles + " " + bottleWord + " of beer on the wall.");
+  } */
+
+
+
+
+
+
+/* var n=Math.random();
+n=n*6;
+n=Math.floor(n)+1;
+console.log(n); */
+ 
+ 
+var aray=[];
+function fib(n){
+ if(n===0){
+   aray=[];
+ }
+  else if(n===1) {
+   aray=[0];
+ }
+ else if(n===2) {
+   aray=[0,1];
+ }
+ else {
+  aray=[0,1];
+  for(a=2;a<n;a++) {
+   
+   aray.push(aray[aray.length- 2] + aray[aray.length- 1]);
+ }
+ }
+
+
+return aray;
+ }

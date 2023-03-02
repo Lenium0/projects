@@ -1,0 +1,145 @@
+
+.test {
+color: #F0E9D2;
+font-size: 3rem;
+}
+body {
+  
+    font-family: 'Bebas Neue', cursive;
+  height: 100vh;
+  background-color: #181D31;
+  margin: 0rem;
+  overflow: hidden;
+}
+.font {
+    color: #F0E9D2;
+
+}
+.pic_text {
+    
+font-size: 3rem;
+margin-top: 20px;
+}
+img {
+    filter: invert(94%) sepia(16%) saturate(243%) hue-rotate(2deg) brightness(99%) contrast(91%);
+    width: 26vh;
+    height: 26vh;
+    padding-top: 20px;
+    border-radius: 0px;
+}
+
+.main_button  {
+    width: 50%;
+    border-radius: 30;
+    transform: translateX(50%);
+    font-size: clamp(3rem, 10rem, 10rem);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    user-select:none;
+}
+.main_button:hover  {
+    border-radius: 30px;
+    text-align: center;
+    user-select:none;
+    background-color: #F0E9D2;
+    color: #181D31;
+}
+h3 {
+    margin-top: 0;
+    margin-bottom: 50px;
+}
+span {
+    font-size: 5rem;
+}
+.two {
+    font-size: 7rem;
+}
+.center_score1 {
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+.center_score2 {
+    display: flex;
+    align-items: center;
+    
+}
+.score {
+    font-size: 2rem;
+    
+}
+.table {
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.score, .player_one, .player_two {
+   display: flex;
+   flex-direction: column;
+   justify-content:center;
+    align-items: center;
+    
+}
+h4 {
+   margin: 10px; 
+}
+
+.history {
+    width: 20%;
+    border: #F0E9D2;
+    border-width: 10px;
+    background-color: #F0E9D2;
+    border-radius: 20px;
+    font-size: 1.5rem ;
+    display: flex;
+    flex-direction: column;
+    height: 40vh;
+    overflow: hidden;
+    align-items: center;
+    color: #181D31;
+    margin: 0 0 0 50%;
+    transform: translateX(-50%);
+}
+/* .history_center1 {
+    display: flex;
+    width: 100%;
+   
+    justify-content: center;
+}
+.history_center2{
+    display: flex;
+
+    margin-left: 50%;
+    transform: translateX(-50%);
+    
+   
+    flex-direction: column;
+    width: 28vh;
+    height: 30vh;
+    justify-content: center;
+
+    flex-wrap: wrap;
+} */
+
+  /* flex-direction: main
+    justify-content main (defines how space is distributed BETWEEN ITEMS in flex container)
+    align-items: second (defines how space is distributed BETWEEN ITEMS in flex container)
+    flex-wrap: second
+    align-content: second  (defines how space is distributed BETWEEN ROWS in flex container)*/
+
+    /* align-self  это как align-items только для отдельных элементов в flex container
+    flex сокращение для всей хуйни снизу см документации
+    flex-basis main растяжение в процентах  как высота и ширина но нет
+    flex-grow main  говорит как все пустое пространство должно использоваться принимает значения 1234 и тд это пропорции сколько каждый будет брать пустого пространства
+    flex-shrink
+    .box:nth-of-type(3n) 
+    order
+
+    */
+   /*  .box:nth-of-type(3n) {
+        flex-basis: 100%;
+      }
+     */
+    
